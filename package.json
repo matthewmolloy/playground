@@ -1,0 +1,15 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Playground WordPress Theme",
+  "main": "index.php",
+  "scripts": {
+    "compile": "sass --watch assets/sass:assets/css"
+  },
+  "author": "Matthew Molloy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewmolloy/playground/issues"
+  },
+  "homepage": "https://github.com/matthewmolloy/playground#readme"
+}
