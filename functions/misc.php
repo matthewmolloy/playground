@@ -75,7 +75,6 @@ function remove_json_api()
 	remove_filter('oembed_dataparse', 'wp_filter_oembed_result', 10); // Don't filter oEmbed results.
 	remove_action('wp_head', 'wp_oembed_add_discovery_links'); // Remove oEmbed discovery links.
 	remove_action('wp_head', 'wp_oembed_add_host_js'); // Remove oEmbed-specific JavaScript from the front-end and back-end.
-	add_filter( 'rewrite_rules_array', 'disable_embeds_rewrites' ); // Remove all embeds rewrite rules.
 }
 add_action('after_setup_theme', 'remove_json_api');
 
